@@ -6,6 +6,7 @@ import {DiPython} from "react-icons/di";
 import {BiLogoPostgresql} from "react-icons/bi";
 import {BiLogoGoLang} from "react-icons/bi";
 import {SiSelenium} from "react-icons/si";
+import {SiExpress} from "react-icons/si";
 
 export default function Technologies() {
 
@@ -35,8 +36,12 @@ export default function Technologies() {
                     <BiLogoGoLang className="text-7xl text-[#0064a5]"/>
                 </div>
                 <div className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <SiExpress className="text-7xl text-gray-400"/>
+                </div>
+                <div className="rounded-2xl border-4 border-neutral-800 p-4">
                     <SiSelenium className="text-7xl text-green-300"/>
                 </div>
+
             </div>
         </div>
     )
