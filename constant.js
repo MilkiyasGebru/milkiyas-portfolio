@@ -66,7 +66,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Addis Ababa",
+  address: "Addis Ababa, Ethiopia",
   phoneNo: "+251 929 054 164 ",
   email: "milkiyasgebru@gmail.com",
 };
