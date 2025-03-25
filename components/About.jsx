@@ -4,7 +4,7 @@ import {ABOUT_TEXT} from "@/index";
 export default function About() {
 
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div className="border-b border-neutral-900 pb-4 px-4">
             <h1 className="text-4xl my-20 text-center mb-4">About <span className="text-neutral-500">Me</span></h1>
             <div className="flex flex-col md:flex-row items-start my-20 flex-wrap gap-1">
                 <div className="w-full md:w-2/5 flex justify-center md:justify-start">

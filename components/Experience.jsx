@@ -2,7 +2,7 @@ import {EXPERIENCES} from "@/index";
 
 export default function Experience() {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div className="border-b border-neutral-900 pb-4 px-4">
             <h1 className="my-20 text-center text-4xl">Experience</h1>
             <div className="flex flex-col gap-8">
                 {EXPERIENCES.map((experience, index) => (
