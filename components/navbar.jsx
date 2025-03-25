@@ -3,6 +3,7 @@ import logo from "@/public/MikiLogo.png"
 
 import {FaLinkedin} from "react-icons/fa"
 import { FaGithub } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -11,8 +12,13 @@ export default function Navbar() {
                 <p className="font-semibold text-xl">MG</p>
             </div>
             <div className="flex p-1 gap-4 text-2xl">
-                <FaGithub />
-                <FaLinkedin />
+                <Link href="https://github.com/MilkiyasGebru">
+                    <FaGithub />
+                </Link>
+                <Link href="https://www.linkedin.com/in/milkiyas-gebru-a138641a5/">
+                    <FaLinkedin />
+                </Link>
+
             </div>
         </nav>
     )
