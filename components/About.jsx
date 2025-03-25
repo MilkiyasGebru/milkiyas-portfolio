@@ -1,5 +1,5 @@
 import Image from "next/image"
-import {ABOUT_TEXT} from "@/index";
+import {ABOUT_TEXT} from "@/constant";
 
 export default function About() {
 

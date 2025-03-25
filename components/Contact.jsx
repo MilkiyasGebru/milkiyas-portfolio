@@ -1,4 +1,4 @@
-import {CONTACT} from "@/index";
+import {CONTACT} from "@/constant";
 import Link from "next/link";
 
 export default function Contact() {

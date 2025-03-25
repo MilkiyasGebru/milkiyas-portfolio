@@ -1,4 +1,4 @@
-import {PROJECTS} from "@/index";
+import {PROJECTS} from "@/constant";
 import Image from "next/image"
 import {
     SiCss3,

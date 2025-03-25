@@ -1,4 +1,4 @@
-import {HERO_CONTENT} from "@/index";
+import {HERO_CONTENT} from "@/constant";
 import Image from "next/image"
 
 export default function Hero() {

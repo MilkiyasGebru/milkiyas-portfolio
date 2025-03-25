@@ -1,4 +1,4 @@
-import {EXPERIENCES} from "@/index";
+import {EXPERIENCES} from "@/constant";
 
 export default function Experience() {
     return (
