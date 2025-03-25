@@ -14,7 +14,7 @@ export default function Hero() {
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
                     <div className="flex justify-center">
-                        <Image src="/Miki_Profile_Picture.jpg" alt="" width={100} height={100} className="w-1/2 rounded"/>
+                        <Image src="/Miki_Profile_Picture.jpg" alt="" width={500} height={500} className="w-1/2 rounded"/>
                     </div>
                 </div>
             </div>
