@@ -1,8 +1,8 @@
 
 export const HERO_CONTENT = `
-I am a passionate full stack developer with a knack for crafting robust and scalable web applications. 
-With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB.
- My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+I am a passionate software developer with a passion for developing web applications. 
+I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Express.js and FastAPI. As well as Databases such as MySQL, PostgreSQL, and MongoDB.
+ My goal is to leverage my skills and knowledge to create innovative solutions that would contribute to digital transformation of Africa.`;
 
 export const ABOUT_TEXT="As an enthusiastic software developer, I have always been fascinated by how computers work, both from a\n" +
     "                  hardware and software perspective. My interest in the field began at an early age when I was first\n" +

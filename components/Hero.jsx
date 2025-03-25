@@ -12,7 +12,7 @@ export default function Hero() {
                         <h1 className="text-8xl tracking-tight pb-16 font-thin ">Milkiyas Gebru</h1>
                         <span
 
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Full Stack Developer</span>
+                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Software Developer</span>
                         <p
 
                             className="my-2 font-light tracking-tighter py-6 max-w-xl">{HERO_CONTENT}</p>
