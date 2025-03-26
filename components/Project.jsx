@@ -13,6 +13,9 @@ import {
     SiTailwindcss
 } from "react-icons/si";
 import {BiLogoNodejs, BiLogoPython} from "react-icons/bi";
+import { FaGithub,FaYoutube, FaExternalLinkAlt} from "react-icons/fa";
+
+import Link from "next/link";
 
 export default function Project(){
     return (
@@ -21,14 +24,41 @@ export default function Project(){
             <div>
                 {PROJECTS.map((project, index) => (
                     <div key={index} className="mb-8 flex gap-4 md:gap-16  md:items-start justify-around">
-                        <Image src={project.image} alt="project" width={150} height={150} className={` border rounded-md w-1/4 lg:w-1/6 overflow-hidden ${index === 0? 'bg-white':""}`} />
+                        <Image src={project.image} alt="project" width={150} height={150} className={` border rounded-md w-1/4 lg:w-1/6 overflow-hidden ${index === 2? 'bg-white':""}`} />
                         <div className="flex flex-col gap-2 items-start w-4/5">
-                            <p className="font-semibold">{project.title}</p>
+                            <div className="flex gap-x-1 items-center">
+                                <p className="font-semibold">{project.title}</p>
+                                {project.website !== "" &&
+                                    <div  className=" px-3 py-2  text-xl text-white">
+                                        <Link href={project.website} target="_blank">
+                                            <FaExternalLinkAlt />
+                                        </Link>
+
+                                    </div>}
+
+                                {project.github !== "" &&
+                                    <div  className=" px-3 py-2  text-xl">
+                                        <Link href={project.github} target="_blank">
+                                            <FaGithub/>
+                                        </Link>
+
+                                    </div>}
+
+                                {project.youtube !== "" &&
+                                    <div  className=" px-3 py-2  text-xl text-red-600">
+                                        <Link href={project.youtube} target="_blank">
+                                            <FaYoutube/>
+
+                                        </Link>
+
+                                    </div>}
+
+                            </div>
                             <p className="font-thin">{project.description}</p>
                             <div className="flex gap-2">
                                 {project.technologies.map((technology, index) => (
 
-                                    <div className="border rounded-md px-3 py-2 text-3xl" key={index}>
+                                    <div className="border rounded-md px-3 py-2 text-3xl border-neutral-800" key={index}>
                                         {(() => { // Immediately invoked function expression (IIFE)
                                             switch (technology.toLowerCase()) {
                                                 case 'html':

@@ -29,20 +29,16 @@ export const EXPERIENCES = [
 
 
 export const PROJECTS = [
-  {
-    title: "Mekdim Project",
-    image: "/mekdim.png",
-    description:
-        "Mekdim is a comprehensive software enterprise project designed to create a feature-rich school portal, encompassing functionalities such as student grade tracking, course registration, and other essential administrative and academic tools.",
-    technologies: ["HTML", "CSS", "express", "node.js", "MySQL"],
-  },
+
   {
     title: "Benchmark Suite For Explainable AI",
     image: "/michigan.png",
     description: "Conducted a 3 month long research project focusing on finding different benchmark suits for comparing different explainable AI models under mentorship of Prof. Valeria Bertacco and P.H.D student Andrew McCrab.",
 
     technologies: ["Python", "Pandas", "Numpy"],
-    // technologies:[]
+    github:"https://github.com/AURA2022-Valeria/BeXAI",
+    website:"",
+    youtube:"https://www.youtube.com/watch?v=RRyJ8oesyJU"
   },
   {
     title: "RateEat Website",
@@ -50,14 +46,28 @@ export const PROJECTS = [
     description:
       "RateEat is a platform specifically designed for Ethiopia, connecting diners with restaurants and food options across the country. Users can discover new eateries, read genuine reviews, and engage with a community of fellow food enthusiasts.",
     technologies: ["express", "node.js", "mongodb"],
-    // technologies:[]
+    github: "",
+    website:"https://rateeat.app/en",
+    youtube:"https://www.youtube.com/watch?v=Z_ump3DCtAA&ab_channel=RateEat"
+  },
+  {
+    title: "Mekdim Project",
+    image: "/mekdim.png",
+    description:
+        "Mekdim is a comprehensive software enterprise project designed to create a feature-rich school portal, encompassing functionalities such as student grade tracking, course registration, and other essential administrative and academic tools.",
+    technologies: ["HTML", "CSS", "express", "node.js", "MySQL"],
+    github:"https://github.com/NathanZK/Mekdim",
+    website:"",
+    youtube:""
   },
   {
     title: "Simple Bookmark Manager",
     image: "/logo-bookmark.svg",
     description: "This project showcases a beautifully crafted, responsive landing page designed to promote a browser bookmark manager extension.",
     technologies: ["HTML", "CSS", "tailwindcss"],
-    // technologies:[]
+    github:"https://github.com/MilkiyasGebru/Landing-Page",
+    website:"https://milkiyasgebru.github.io/Landing-Page/",
+    youtube:""
   },
 ];
 
