@@ -6,7 +6,7 @@ import Image from "next/image"
 export default function Hero() {
     return (
         <div className="">
-            <div className="flex flex-wrap">
+            <div className="flex flex-col-reverse flex-wrap md:flex-row px-4">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
                         <h1 className="text-8xl tracking-tight pb-16 font-thin ">Milkiyas Gebru</h1>

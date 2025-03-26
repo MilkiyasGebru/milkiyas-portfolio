@@ -11,10 +11,8 @@ export default function Experience() {
                             <p className="font-thin">{experience.year}</p>
                         </div>
                         <div className="w-4/5 md:w-1/2 flex flex-col gap-y-[10px]">
-                            <div className="flex gap-2 font-semibold">
-                                <p>{experience.role} -</p>
-                                <p>{experience.company}</p>
-                            </div>
+                            <p>{experience.role} - {experience.company}</p>
+
                             <p className="text-neutral-400 ">{experience.description}</p>
                             <div className="flex gap-2 flex-wrap">
                                 {experience.technologies.map((technology, index) => (

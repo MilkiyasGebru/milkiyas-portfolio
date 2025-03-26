@@ -24,7 +24,7 @@ export default function Project(){
             <div>
                 {PROJECTS.map((project, index) => (
                     <div key={index} className="mb-8 flex gap-4 md:gap-16  md:items-start justify-around">
-                        <Image src={project.image} alt="project" width={150} height={150} className={` border rounded-md w-1/4 lg:w-1/6 overflow-hidden ${index === 2? 'bg-white':""}`} />
+                        <Image src={project.image} alt="project" width={150} height={150} className={` aspect-square border rounded-md w-1/4 lg:w-1/6  ${index === 2? 'bg-white':""} `} />
                         <div className="flex flex-col gap-2 items-start w-4/5">
                             <div className="flex gap-x-1 items-center">
                                 <p className="font-semibold">{project.title}</p>
