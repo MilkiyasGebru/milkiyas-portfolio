@@ -1,5 +1,6 @@
 import {HERO_CONTENT} from "@/constant";
 import Image from "next/image"
+import Link from "next/link";
 
 
 
@@ -16,6 +17,7 @@ export default function Hero() {
                         <p
 
                             className="my-2 font-light tracking-tighter py-6 max-w-xl">{HERO_CONTENT}</p>
+                        <Link className="px-3 py-2 border border-neutral-800 rounded-md self-start bg-gradient-to-l from-gray-300 to-gray-500 text-neutral-800" href="/MILKIYAS-GEBREMICHAEL-GEBRU-RESUME.pdf" download="MilkiyasGebruCV.pdf">Download Resume</Link>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
