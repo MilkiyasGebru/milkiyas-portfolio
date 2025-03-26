@@ -12,10 +12,10 @@ export default function Navbar() {
                 <p className="font-semibold text-xl">MG</p>
             </div>
             <div className="flex p-1 gap-4 text-2xl">
-                <Link href="https://github.com/MilkiyasGebru">
+                <Link href="https://github.com/MilkiyasGebru" target="_blank">
                     <FaGithub />
                 </Link>
-                <Link href="https://www.linkedin.com/in/milkiyas-gebru-a138641a5/">
+                <Link href="https://www.linkedin.com/in/milkiyas-gebru-a138641a5/" target="_blank">
                     <FaLinkedin />
                 </Link>
 

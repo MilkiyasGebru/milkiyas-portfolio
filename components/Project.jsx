@@ -29,7 +29,7 @@ export default function Project(){
                             <div className="flex gap-x-1 items-center">
                                 <p className="font-semibold">{project.title}</p>
                                 {project.website !== "" &&
-                                    <div  className=" px-3 py-2  text-xl text-white">
+                                    <div  className=" px-3 py-2  text-xl text-white hover:text-2xl">
                                         <Link href={project.website} target="_blank">
                                             <FaExternalLinkAlt />
                                         </Link>
@@ -37,7 +37,7 @@ export default function Project(){
                                     </div>}
 
                                 {project.github !== "" &&
-                                    <div  className=" px-3 py-2  text-xl">
+                                    <div  className=" px-3 py-2  text-xl hover:text-2xl">
                                         <Link href={project.github} target="_blank">
                                             <FaGithub/>
                                         </Link>
@@ -45,7 +45,7 @@ export default function Project(){
                                     </div>}
 
                                 {project.youtube !== "" &&
-                                    <div  className=" px-3 py-2  text-xl text-red-600">
+                                    <div  className=" px-3 py-2  text-xl text-red-600 hover:text-2xl duration-500">
                                         <Link href={project.youtube} target="_blank">
                                             <FaYoutube/>
 
