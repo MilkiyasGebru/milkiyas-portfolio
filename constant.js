@@ -4,11 +4,7 @@ I am a passionate software developer with a passion for developing web applicati
 I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Express.js and FastAPI. As well as Databases such as MySQL, PostgreSQL, and MongoDB.
  My goal is to leverage my skills and knowledge to create innovative solutions that would contribute to digital transformation of Africa.`;
 
-export const ABOUT_TEXT="As an enthusiastic software developer, I have always been fascinated by how computers work, both from a\n" +
-    "                  hardware and software perspective. My interest in the field began at an early age when I was first\n" +
-    "                  introduced to computers, and since then, I’ve been determined to build a career in tech. This drive led me\n" +
-    "                  to acquire skills in programming languages and technologies like Java, C++, HTML5, CSS, Python,\n" +
-    "                  JavaScript, Node.js, and React.js, and to pursue opportunities to grow."
+export const ABOUT_TEXT="I recently graduated with a bachelor's degree in Computer Engineering from Addis Ababa University with cumulative GPA of 3.96/4, earning me a Gold Medal. I have also completed a A2SV bootcamp and receiving tailored education in Data Structures and Algorithms. I am interested in Algorithms, Distributed Systems, and Full Stack Development. I am also keen to contribute to Open Source projects. "
 
 
 export const EXPERIENCES = [
