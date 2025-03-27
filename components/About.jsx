@@ -1,7 +1,6 @@
 "use client"
 import Image from "next/image"
 import {ABOUT_TEXT} from "@/constant";
-import {motion} from "framer-motion";
 
 export default function About() {
 
