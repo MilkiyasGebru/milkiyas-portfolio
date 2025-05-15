@@ -10,19 +10,22 @@ export const ABOUT_TEXT="I recently graduated with a bachelor's degree in Comput
 export const EXPERIENCES = [
 
   {
-    role : "Python Developer",
+    role : "Software Developer",
     company: "Holistic Technologies",
     year: "Oct 2023 - Present",
     description: "I automated Instagram and Threads posts using Selenium, developed a system to automate WordPress article publishing via CRON jobs, managed and maintained their VPS server, implemented the entire frontend for the company blog, and integrated a Stripe payment system for secure and efficient transaction processing on the blog website.",
-    technologies: ["Python", "Selenium", "Linux"]
+    technologies: ["Python", "Selenium", "Linux", "Stripe", "React", "Tailwindcss"]
 
   },
   {
-    role : "Software Engineer and Head of Education",
+    role : "Software Developer and Head of Education",
     company: "Africa to Silicon Valley",
     year: "Mar 2023 - Feb 2025",
-    description:"I developed automation scripts using Apps Script and Python to streamline student progress tracking across various learning platforms, significantly reducing the process from hours to mere minutes.  Additionally, I trained over 30 backend development students in GoLang and clean architecture principles, and delivered more than 10 comprehensive lessons on data structures and algorithms to another group of 30+ students.",
-    technologies: ["Python", "AppScripts", "Golang"]
+    description:"" +
+        "I had the opportunity to contribute to the backend development of “RateEat”, where I implemented the whole logic of business reviews, and voting system using Node.js and Express.js. And made sure that code I wrote is bug free as much as possible by testing it rigorously using Jest. On this project, I collaborated with more than 10 other developers by effectively utilizing Git. " +
+        "Additionally, I trained over 30 backend development students in GoLang and clean architecture principles, and delivered more than 10 comprehensive lessons on data structures and algorithms to another group of 30+ students." +
+        "I also developed automation scripts using Apps Script and Python to streamline student progress tracking across various learning platforms, significantly reducing the process from hours to mere minutes.  ",
+    technologies: ["Python", "AppScripts", "Golang", "Node.js", "Express.js", "MongoDB"]
 
   }
 ];
@@ -50,6 +53,7 @@ export const PROJECTS = [
     website:"https://rateeat.app/en",
     youtube:"https://www.youtube.com/watch?v=Z_ump3DCtAA&ab_channel=RateEat"
   },
+
   {
     title: "Mekdim Project",
     image: "/mekdim.png",
@@ -59,6 +63,16 @@ export const PROJECTS = [
     github:"https://github.com/NathanZK/Mekdim",
     website:"",
     youtube:""
+  },
+
+  {
+    title:"Wordle Clone",
+    image: "/wordle_image.png",
+    description: "Wordle Clone is a game where player must decipher 5 letter word with maximum of 6 guesses",
+    technologies: ["HTML", "CSS","tailwindcss","react"],
+    github: "https://github.com/MilkiyasGebru/wordle-clone",
+    website: "https://wordle-clone-one-navy.vercel.app/",
+    youtube: ""
   },
   {
     title: "Simple Bookmark Manager",
