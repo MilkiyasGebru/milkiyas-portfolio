@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     company: "Holistic Technologies",
     year: "Oct 2023 - Present",
     description: "I automated Instagram and Threads posts using Selenium, developed a system to automate WordPress article publishing via CRON jobs, managed and maintained their VPS server, implemented the entire frontend for the company blog, and integrated a Stripe payment system for secure and efficient transaction processing on the blog website.",
-    technologies: ["Python", "Selenium", "Linux", "Stripe", "React", "Tailwindcss"]
+    technologies: ["Python", "Selenium", "Linux", "Stripe", "React.js", "Tailwindcss"]
 
   },
   {
