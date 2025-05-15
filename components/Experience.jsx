@@ -6,11 +6,11 @@ export default function Experience() {
             <h1 className="my-20 text-center text-4xl">Experience</h1>
             <div className="flex flex-col gap-8">
                 {EXPERIENCES.map((experience, index) => (
-                    <div key={index} className="flex flex-col items-center md:items-start md:flex-row ">
-                        <div className="w-4/5 md:w-1/3 self-start px-8">
+                    <div key={index} className="flex flex-col items-end  md:items-start md:flex-row  ">
+                        <div className="w-5/6 md:w-1/3 self-start md:px-8">
                             <p className="font-thin">{experience.year}</p>
                         </div>
-                        <div className="w-4/5 md:w-1/2 flex flex-col gap-y-[10px]">
+                        <div className="w-full md:w-1/2 flex flex-col gap-y-[10px] self-start">
                             <p>{experience.role} - {experience.company}</p>
 
                             <p className="text-neutral-400 ">{experience.description}</p>
