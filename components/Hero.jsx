@@ -17,7 +17,7 @@ export default function Hero() {
 
                             className="my-2 font-light tracking-tighter py-6 max-w-xl">{HERO_CONTENT}</p>
 
-                        <a className="px-3 py-2 border border-neutral-800 rounded-md self-start bg-gradient-to-l from-gray-300 to-gray-500 text-neutral-800" href="/MILKIYAS-GEBREMICHAEL-GEBRU-RESUME.pdf" download="MilkiyasGebruCV.pdf">Download Resume</a>
+                        <a className="px-3 py-2 border border-neutral-800 rounded-md self-start bg-gradient-to-l from-gray-300 to-gray-500 text-neutral-800" href="/MILKIYAS_GEBRU_CV.pdf" download="MilkiyasGebruCV.pdf">Download Resume</a>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
