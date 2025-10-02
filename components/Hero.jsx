@@ -12,12 +12,12 @@ export default function Hero() {
                         <h1 className="text-8xl tracking-tight pb-16 font-thin ">Milkiyas Gebru</h1>
                         <span
 
-                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Software Developer</span>
+                            className="bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent">Software Developer and Researcher</span>
                         <p
 
                             className="my-2 font-light tracking-tighter py-6 max-w-xl">{HERO_CONTENT}</p>
 
-                        <a className="px-3 py-2 border border-neutral-800 rounded-md self-start bg-gradient-to-l from-gray-300 to-gray-500 text-neutral-800" href="/MILKIYAS_GEBRU_CV.pdf" download="MilkiyasGebruCV.pdf">Download Resume</a>
+                        <a className="px-3 py-2 border border-neutral-800 rounded-md self-start bg-gradient-to-l from-gray-300 to-gray-500 text-neutral-800" href="/Milkiyas-Gebremichael-Gebru-Resume.pdf" download="MilkiyasGebruCV.pdf">Download Resume</a>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">

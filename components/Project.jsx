@@ -36,14 +36,6 @@ export default function Project(){
 
                                     </div>}
 
-                                {project.github !== "" &&
-                                    <div  className=" px-3 py-2  text-xl hover:text-2xl">
-                                        <Link href={project.github} target="_blank">
-                                            <FaGithub/>
-                                        </Link>
-
-                                    </div>}
-
                                 {project.youtube !== "" &&
                                     <div  className=" px-3 py-2  text-xl text-red-600 hover:text-2xl duration-500">
                                         <Link href={project.youtube} target="_blank">
@@ -52,6 +44,16 @@ export default function Project(){
                                         </Link>
 
                                     </div>}
+
+
+                                {project.github !== "" &&
+                                    <div  className=" px-3 py-2  text-xl hover:text-2xl">
+                                        <Link href={project.github} target="_blank">
+                                            <FaGithub/>
+                                        </Link>
+
+                                    </div>}
+
 
                             </div>
                             <p className="font-thin">{project.description}</p>

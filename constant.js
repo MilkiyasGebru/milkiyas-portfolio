@@ -1,14 +1,25 @@
 
 export const HERO_CONTENT = `
-I am a passionate software developer with a passion for developing web applications. 
+I am a passionate software developer. 
 I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Express.js and FastAPI. As well as Databases such as MySQL, PostgreSQL, and MongoDB.
  My goal is to leverage my skills and knowledge to create innovative solutions that would contribute to digital transformation of Africa.`;
 
-export const ABOUT_TEXT="I recently graduated with a bachelor's degree in Computer Engineering from Addis Ababa University with cumulative GPA of 3.96/4, earning me a Gold Medal. I have also completed a A2SV bootcamp and receiving tailored education in Data Structures and Algorithms. I am interested in Algorithms, Distributed Systems, and Full Stack Development. I am also keen to contribute to Open Source projects. "
+export const ABOUT_TEXT="I  graduated with a bachelor's degree in Computer Engineering from Addis Ababa University with cumulative GPA of 3.96/4, earning me a Gold Medal." +
+    " I have also completed a A2SV bootcamp and receiving tailored education in Data Structures and Algorithms." +
+     " My research experience includes ongoing work at the University of Illinois Urbana-Champaign (since May 2025) on mutation testing and a prior project at the University of Michigan (2022) developing a benchmark suite for Explainable AI." +
+    " I am deeply interested in Algorithms, AI, and Distributed Systems. I am also keen to contribute to Open Source projects. "
 
 
 export const EXPERIENCES = [
 
+  {
+    role : "Software Researcher",
+    company: "University of Illinois Urbana-Champaign\n",
+    year: "May 2025 - Present",
+    description: "Selected to be part of the UIUC+ Summer Research Program. The research focuses on mutation testing, specifically on the application of LLMs to detect equivalent mutants",
+    technologies: ["Python", "Pandas", "Linux",]
+
+  },
   {
     role : "Software Developer",
     company: "Holistic Technologies",
@@ -36,12 +47,14 @@ export const PROJECTS = [
   {
     title: "Benchmark Suite For Explainable AI",
     image: "/michigan.png",
-    description: "Conducted a 3 month long research project focusing on finding different benchmark suits for comparing different explainable AI models under mentorship of Prof. Valeria Bertacco and P.H.D student Andrew McCrab.",
+    description: "Conducted a 3 month long research project focusing on creating a flexible benchmark suite to evaluate AI models and explainers \n" +
+        "with explainability metrics using various datasets under the mentorship of Prof. Valeria Bertacco and Dr. Andrew McCrabb.",
 
     technologies: ["Python", "Pandas", "Numpy"],
     github:"https://github.com/AURA2022-Valeria/BeXAI",
-    website:"",
-    youtube:"https://www.youtube.com/watch?v=RRyJ8oesyJU"
+
+    youtube:"https://www.youtube.com/watch?v=RRyJ8oesyJU",
+    website:"https://adacenter.org/bexai/"
   },
   {
     title: "RateEat Website",
