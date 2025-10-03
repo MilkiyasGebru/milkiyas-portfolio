@@ -10,7 +10,11 @@ import {
     SiNumpy,
     SiPandas,
     SiReact,
-    SiTailwindcss
+    SiTailwindcss,
+    SiTypescript,
+    SiPostgresql,
+    SiSequelize,
+    SiJsonwebtokens
 } from "react-icons/si";
 import {BiLogoNodejs, BiLogoPython} from "react-icons/bi";
 import { FaGithub,FaYoutube, FaExternalLinkAlt} from "react-icons/fa";
@@ -87,6 +91,14 @@ export default function Project(){
                                                     return <SiMongodb style={{ color: "#47A248" }} />;
                                                 case 'tailwindcss':
                                                     return <SiTailwindcss style={{ color: "#38B2AC" }} />;
+                                                case 'typescript':
+                                                    return <SiTypescript style={{ color: "#1572B6" }} />;
+                                                case 'postgresql':
+                                                    return <SiPostgresql style={{ color: "#1572B6" }} />;
+                                                case 'sequelize':
+                                                    return <SiSequelize style={{ color: "#1572B6" }} />;
+                                                case 'jwt':
+                                                    return <SiJsonwebtokens style={{ color: "#FB544E" }} />;
                                                 default:
                                                     return null; // Handle cases where the technology is not recognized
                                             }
