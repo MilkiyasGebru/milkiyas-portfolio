@@ -77,6 +77,16 @@ export const PROJECTS = [
     website:"",
     youtube:""
   },
+  {
+    title: "Flashcards",
+    image: "/flashcards.svg",
+    description:
+        "Flashcards is a web application designed to help you master new words through focused memorization. Easily add custom words and definitions, and the app intelligently presents them as flashcards based on your familiarity for optimal learning",
+    technologies: ["express", "node.js", "postgresql","typescript", "tailwindcss","sequelize","jwt"],
+    github: "https://github.com/MilkiyasGebru/Flashcards",
+    website:"https://hiring-milkiyas-gebru-flashcards-6h.vercel.app/",
+    youtube:""
+  },
 
   {
     title:"Wordle Clone",
