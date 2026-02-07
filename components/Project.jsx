@@ -20,7 +20,7 @@ import {BiLogoNodejs, BiLogoPython} from "react-icons/bi";
 import { FaGithub,FaYoutube, FaExternalLinkAlt} from "react-icons/fa";
 
 import Link from "next/link";
-
+// The Project Section
 export default function Project(){
     return (
         <div className="border-b border-neutral-900 pb-4 container px-3">
