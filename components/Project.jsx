@@ -14,7 +14,8 @@ import {
     SiTypescript,
     SiPostgresql,
     SiSequelize,
-    SiJsonwebtokens
+    SiJsonwebtokens,
+    SiGo
 } from "react-icons/si";
 import {BiLogoNodejs, BiLogoPython} from "react-icons/bi";
 import { FaGithub,FaYoutube, FaExternalLinkAlt} from "react-icons/fa";
@@ -99,6 +100,8 @@ export default function Project(){
                                                     return <SiSequelize style={{ color: "#1572B6" }} />;
                                                 case 'jwt':
                                                     return <SiJsonwebtokens style={{ color: "#FB544E" }} />;
+                                                case 'go':
+                                                    return <SiGo style={{ color: "#38B2AC" }}/>
                                                 default:
                                                     return null; // Handle cases where the technology is not recognized
                                             }
