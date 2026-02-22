@@ -106,6 +106,15 @@ export const PROJECTS = [
     website:"https://milkiyasgebru.github.io/Landing-Page/",
     youtube:""
   },
+  {
+    title: "Port Scanner",
+    image: "/port-scanner.png",
+    description: "Built a lightning-fast network utility capable of scanning thousands ports in seconds using concurrent Go routines.",
+    technologies: ["GO"],
+    github: "https://github.com/MilkiyasGebru/PortScanner",
+    website: "",
+    youtube: ""
+  }
 ];
 
 export const CONTACT = {
