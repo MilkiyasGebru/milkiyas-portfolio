@@ -20,18 +20,18 @@ export const EXPERIENCES = [
     technologies: ["Python", "Pandas", "Linux",]
 
   },
-  {
-    role : "Software Developer",
-    company: "Holistic Technologies",
-    year: "Oct 2023 - Present",
-    description: "I automated Instagram and Threads posts using Selenium, developed a system to automate WordPress article publishing via CRON jobs, managed and maintained their VPS server, implemented the entire frontend for the company blog, and integrated a Stripe payment system for secure and efficient transaction processing on the blog website.",
-    technologies: ["Python", "Selenium", "Linux", "Stripe", "React.js", "Tailwindcss"]
-
-  },
+  // {
+  //   role : "Software Developer",
+  //   company: "Holistic Technologies",
+  //   year: "Oct 2023 - Present",
+  //   description: "I automated Instagram and Threads posts using Selenium, developed a system to automate WordPress article publishing via CRON jobs, managed and maintained their VPS server, implemented the entire frontend for the company blog, and integrated a Stripe payment system for secure and efficient transaction processing on the blog website.",
+  //   technologies: ["Python", "Selenium", "Linux", "Stripe", "React.js", "Tailwindcss"]
+  //
+  // },
   {
     role : "Software Developer and Head of Education",
     company: "Africa to Silicon Valley",
-    year: "Mar 2023 - Feb 2025",
+    year: "Mar 2023 - Dec 2024",
     description:"" +
         "I had the opportunity to contribute to the backend development of “RateEat”, where I implemented the whole logic of business reviews, and voting system using Node.js and Express.js. And made sure that code I wrote is bug free as much as possible by testing it rigorously using Jest. On this project, I collaborated with more than 10 other developers by effectively utilizing Git. " +
         "Additionally, I trained over 30 backend development students in GoLang and clean architecture principles, and delivered more than 10 comprehensive lessons on data structures and algorithms to another group of 30+ students." +
